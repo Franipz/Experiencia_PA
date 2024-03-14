@@ -7,6 +7,8 @@ def juego_del_dado():
         dado1=random.randint(1,6)
         mipuntaje += dado1
         print("Tu puntaje:",mipuntaje)
+        if mipuntaje>=30:
+            break
         dado2 = random.randint(1,6)
         cpuntaje += dado2
         print("Puntaje oponente:",cpuntaje)
