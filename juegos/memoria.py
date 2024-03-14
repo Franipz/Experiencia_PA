@@ -1,10 +1,10 @@
 import random
 def memoria():
-    secuencia = ""
-    for i in range(10):
-        num = random.randint(0,9)
-        print(num)
-        secuencia += str(num)
+    num = random.randint(10000,99999)
+    print(num)
+    secuencia = str(num)
+    for i in range(15):
+        print(" ")
     repuesta = input("Escribe la secuencia: ")
     if repuesta==secuencia:
         print("Lo lograste!!")
